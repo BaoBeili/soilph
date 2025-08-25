@@ -50,29 +50,29 @@ with col12:
     BiopH = st.number_input('Biochar pH', 0.0)
 
 
-col13, col14 = st.columns(2)
+col13, col14, col15 = st.columns(3)
 with col13:
     bioadd = st.number_input('Biochar addition (t/ha)', 0.0)
 with col14:
     trd = st.number_input('Trial duration (day)', 0.0)
+with col15:
+    soild = st.number_input('Soil depth (cm)', 0.0)
 
 col17, col18  = st.columns(2)
-with col17[0]:
+with col17:
     treat = st.radio(
         'Treatment',
         [0, 1],
         help='0 = biochar-only applications; 1 = biochar combined with fertilizer'
     )
-with col18[0]:
+with col18:
     cropt = st.radio(
         'Crop type',
         [0, 1],
         help='0 = no crop plant; 1 = crops plant'
     )
 
-col19, col20, col21  = st.columns(3)
-with col19:
-    soild = st.number_input('Soil depth (cm)', 0.0)
+
 
 
 
