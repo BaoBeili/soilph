@@ -56,7 +56,7 @@ with col13:
 with col14:
     trd = st.number_input('Trial duration (day)', 0.0)
 
-col17, col18  = st.columns(1)
+col17, col18  = st.columns(2)
 with col17[0]:
     treat = st.radio(
         'Treatment',
