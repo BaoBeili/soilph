@@ -8,7 +8,7 @@ import pandas  as pd; import pickle
 
 import os
 
-filename1 = 'https://raw.githubusercontent.com/imsb1371/streamBiochar/refs/heads/main/Capture1.PNG'
+filename1 = 'https://raw.githubusercontent.com/BaoBeili/soilph/refs/heads/main/Capture1.PNG'
 # filename2 = 'https://raw.githubusercontent.com/imsb1371/streamBiochar/refs/heads/main/Capture2.PNG'
 
 st.title('Prediction of Heavy Metal Removal Efficiency Using Biochar')
@@ -113,8 +113,8 @@ if st.button('Run'):
 
 
 
-filename7 = 'https://raw.githubusercontent.com/imsb1371/streamBiochar/refs/heads/main/Capture3.PNG'
-filename8 = 'https://raw.githubusercontent.com/imsb1371/streamBiochar/refs/heads/main/Capture4.PNG'
+filename7 = 'https://raw.githubusercontent.com/BaoBeili/soilph/refs/heads/main/Capture3.PNG'
+filename8 = 'https://raw.githubusercontent.com/BaoBeili/soilph/refs/heads/main/Capture4.PNG'
 
 col22, col23 = st.columns(2)
 with col22:
