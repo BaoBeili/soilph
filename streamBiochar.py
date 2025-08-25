@@ -11,7 +11,7 @@ import os
 filename1 = 'https://raw.githubusercontent.com/BaoBeili/soilph/refs/heads/main/Capture1.PNG'
 # filename2 = 'https://raw.githubusercontent.com/imsb1371/streamBiochar/refs/heads/main/Capture2.PNG'
 
-st.title('Soil pH following biochar treatment')
+# st.title('Soil pH following biochar treatment')
 with st.container():
     st.image(filename1)
     # st.image(filename2)
