@@ -11,7 +11,7 @@ import os
 filename1 = 'https://raw.githubusercontent.com/BaoBeili/soilph/refs/heads/main/Capture1.PNG'
 # filename2 = 'https://raw.githubusercontent.com/imsb1371/streamBiochar/refs/heads/main/Capture2.PNG'
 
-st.title('Prediction of Heavy Metal Removal Efficiency Using Biochar')
+st.title('Soil pH following biochar treatment')
 with st.container():
     st.image(filename1)
     # st.image(filename2)
@@ -56,15 +56,13 @@ with col13:
 with col14:
     trd = st.number_input('Trial duration (day)', 0.0)
 
-col17 = st.columns(1)
+col17, col18  = st.columns(1)
 with col17[0]:
     treat = st.radio(
         'Treatment',
         [0, 1],
         help='0 = biochar-only applications; 1 = biochar combined with fertilizer'
     )
-
-col18 = st.columns(1)
 with col18[0]:
     cropt = st.radio(
         'Crop type',
