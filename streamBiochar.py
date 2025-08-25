@@ -102,7 +102,7 @@ if st.button('Run'):
             YY = model2.predict(inputvec)
 
             # Display predictions
-            col19, col20, col21 = st.columns(3)
+            col19, col20 = st.columns(2)
             with col19:
                 st.write("Soil pH following biochar treatment: ", np.round(abs(YY), 2))
 
